@@ -1,0 +1,159 @@
+body {
+  margin: 0; /*this set all four site margin to 0px*/
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #EAF6F6;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514E;
+}
+h1 {
+  font-size: 4.512rem;
+  margin: 0 auto -25px auto;
+  font-family: "Sacramento", serif;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+.top-container {
+  padding: 30px;
+}
+.top-container h2 {
+  font-size: 2rem;
+}
+a {
+  color: #11999e;
+}
+p {
+  line-height: 2;
+}
+.intro{
+    width: 70%;
+    margin: auto;
+}
+.cloud {
+  margin: 0 auto 0 auto;
+  position: absolute;
+}
+.top {
+  right: 300px;
+  top: 100px;
+}
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.mountain {
+  width: 500px;
+  height: 400px;
+
+  margin-bottom: 0;
+}
+
+.imgg {
+  width: 25%;
+  height: 25%;
+}
+.profile {
+  width: 50%;
+  margin: auto;
+}
+.middle-container {
+}
+.bottom-container {
+  margin-top: 25px;
+  background-color: aqua;
+  height: 100px;
+  padding: 25px;
+}
+a{
+  text-decoration: none;
+  padding: 20px 15px;
+  margin: 100px auto;
+}
+a:hover{
+  color: beige;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+}
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.taxt {
+  clear: left;
+}
+.contact-message{
+  width: 40%;
+  margin: 30px auto 30px;
+}
+.btn{
+  text-decoration: none;
+  background-color: #11999e;
+  color: aliceblue;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  border: solid rgba(73, 57, 75, 0.473);
+  padding:0 5px;
+}
+.btn:hover{
+  background-color: aqua;
+  border: solid gray;
+}
+.copyright{
+  font-size: 0.75rem;
+  color: beige;
+  padding: 30px 0;
+}
+/*.a{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    position:absolute;
+     /*display: inline-block;
+    position: relative;
+}
+
+.conatainer{
+    height: 600px;
+    width: 600px;
+    background-color: gray;
+    position: relative;
+}
+.b{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position:absolute;/* take its margin and padding from its parents  */
+/*  top: 0px;
+    left: 200px;
+    /*display: inline-block;
+    position: relative; take its margin and padding as expected but dont effect other position*/
+/*}
+.c{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: fixed;/* this div is fixed itbdont move withscroll bar relatively  */
+/* top: 0px;
+    left: 400px;
+    /*display: inline-block;
+    position:absolute;
+    position: relative;
+}*/
